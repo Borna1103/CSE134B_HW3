@@ -74,8 +74,21 @@ nav {
 
 footer {
     background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    p {
+        color: color(srgb 0 0.7 1);
+    }
 }
-
+#contact {
+    background-color: color-mix(in srgb, green 60%, blue 40%);
+    
+    label {
+        color: color(srgb 0 0.7 1);
+    }
+}
 #resume {
     background: linear-gradient(to right, var(--gradient-start-color), var(--gradient-end-color));
     padding: 0.5rem 0rem;
