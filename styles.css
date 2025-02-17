@@ -82,13 +82,7 @@ footer {
         color: color(srgb 0 0.7 1);
     }
 }
-#contact {
-    background-color: color-mix(in srgb, green 60%, blue 40%);
-    
-    label {
-        color: color(srgb 0 0.7 1);
-    }
-}
+
 #resume {
     background: linear-gradient(to right, var(--gradient-start-color), var(--gradient-end-color));
     padding: 0.5rem 0rem;
